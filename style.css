@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: top;
+    filter: hue-rotate(220deg);
+    opacity: 0.2;
+    z-index: -1;
+}
+.menu img{
+    width: 40px;
+    transition: 0.5s;
+}
+.menu{
+    background-color: white;
+    box-shadow: 1px 1px 20px #aaa;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+.menu a{
+    text-decoration: none;
+    color: #a0b9ff;
+}
+.menu a:hover{
+    background: #e5ffe5;
+
+}
+.menu a:hover img{
+    transform: rotate(15deg) translateX(20px);
+}
+.logo{
+    margin-top: 10px;
+}
