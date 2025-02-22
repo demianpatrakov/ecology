@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Nunito", serif;
 }
 .bg{
     width: 100%;
@@ -49,4 +52,39 @@
 }
 .logo{
     margin-top: 10px;
+}
+.header {
+    padding-left: 90px; 
+}
+.header-title {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    text-align: center;
+    color: #a0b9ff;
+    box-shadow:  0 5px 10px #4b4b4b;
+}
+.planet-facts {
+    display: flex;
+    margin: 150px 0;
+}
+.facts-left {
+    width: 50%;
+    height: 350px;
+    background: url('images/intro2.jpg') center/cover no-repeat;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facts-title {
+}
+.facts-right {
+    width: 50%;
+    height: 350px;
+}
+.facts-content {
 }
